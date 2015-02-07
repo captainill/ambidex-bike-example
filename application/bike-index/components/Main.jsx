@@ -26,12 +26,12 @@ var Main = React.createClass({
           STATIC_URL + "generic/"
         }
         leftSideBar = { < nav > Put your nav here </nav>}
-        logoSrc={ STATIC_URL + "bike-index/images /logo - one - line.svg " }
+        logoSrc={ STATIC_URL + "bike-index/images/logo-one-line.svg" }
         makeLogoSilhouette={ true }
         appBarActionButtons={
           <div>
             <IconButton
-              src={ STATIC_URL + "bike - index / images / man - on - bike.svg " }
+              src={ STATIC_URL + "bike-index/images/man-on-bike.svg" }
               makeSilhouette={ true }
               onTouchTap={ this.getRefluxAction("showRightSideBar") }/>
           </div>
