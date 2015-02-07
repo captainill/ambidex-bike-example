@@ -1,8 +1,9 @@
-var Ambidex     = require("ambidex");
+var Ambidex = require("ambidex");
 
 var bikeIndexExample = require("../init.js");
+var TardisGallery = require("../bike-index/tardis/TardisGallery.server.js");
 
-module.exports = new Ambidex.addons.TardisGallery(
+module.exports = new TardisGallery(
   {
     ambidexPromises: [
       bikeIndexExample
