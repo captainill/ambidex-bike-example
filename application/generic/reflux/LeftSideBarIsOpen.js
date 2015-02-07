@@ -1,28 +1,27 @@
 var LeftSideBarIsOpen = {
-  "actions":      [
-                    "showLeftSideBar",
-                    "hideLeftSideBar"
-                  ],
+  actions:[
+  "showLeftSideBar",
+  "hideLeftSideBar"
+  ],
 
-  "store":        {
-                    "init":               function () {
-                                            this.state = false;
+  store: {
+    init: function () {
+      this.state = false;
+      
+      this.trigger(this.state);
+    },
 
-                                            this.trigger(this.state);
-                                          },
+    onShowLeftSideBar:  function () {
+      this.state = true;
 
-                    "onShowLeftSideBar":  function () {
-                                            this.state = true;
-
-                                            this.trigger(this.state);
-                                          },
-
-                    "onHideLeftSideBar":  function () {
-                                            this.state = false;
-
-                                            this.trigger(this.state);
-                                          },
-                  },
+      this.trigger(this.state);
+    },
+    
+    onHideLeftSideBar: function () {
+      this.state = false;
+      this.trigger(this.state);
+    }
+  }
 };
 
 module.exports = LeftSideBarIsOpen;

@@ -1,10 +1,9 @@
 .ScrollPane {
-  display:                      flex;
-  position:                     relative;
-
-  height:                       100vh;
-  max-height:                   100%;
-
-  overflow-y:                   auto;
-  -webkit-overflow-scrolling:   touch;    // Dumbass Safari won't inertial scroll unless you manually opt-in
+  display: flex;
+  position: relative;
+  height: 100vh;
+  max-height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  // Dumbass Safari won't inertial scroll unless you manually opt-in
 }

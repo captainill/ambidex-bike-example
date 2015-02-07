@@ -1,13 +1,10 @@
 .Silhouette {
-  display:                        inline-block;
-
-  mask-size:                      100%;
-  mask-position:                  center center;
-  mask-repeat:                    no-repeat;
-
-  background-color:               $primaryColor3;
-
+  display: inline-block;
+  mask-size: 100%;
+  mask-position: center center;
+  mask-repeat: no-repeat;
+  background-color: $primaryColor3;
   img {
-    opacity:                        0;
+    opacity: 0;
   }
 }

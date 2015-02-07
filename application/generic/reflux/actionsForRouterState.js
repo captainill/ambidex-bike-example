@@ -1,12 +1,12 @@
 var refluxActionsForRouterState = [
   {
-    "actionName":     "hideLeftSideBar",
-    "storeName":      "LeftSideBarIsOpen",
+    actionName:     "hideLeftSideBar",
+    storeName:      "LeftSideBarIsOpen",
   },
 
   {
-    "actionName":     "hideRightSideBar",
-    "storeName":      "RightSideBarIsOpen",
+    actionName:     "hideRightSideBar",
+    storeName:      "RightSideBarIsOpen",
   },
 ];
 

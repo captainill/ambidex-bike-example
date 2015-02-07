@@ -1,46 +1,37 @@
 @import "IconButton";
 
-$appBarHeight:                56px;
-$appBarPadding:               16px;
+$appBarHeight: 56px;
+$appBarPadding: 16px;
 
 .AppBar {
-  @extend                       %titleText;
-  @extend                       %layer1;
-
-  background-color:             $accentColor1;
-
-  display:                      flex;
-  justify-content:              space-between;
-
-  position:                     fixed;
-  top:                          0px;
-  left:                         0px;
-
-  padding:                      16px;
-  width:                        100vw;
-  height:                       $appBarHeight;
-
+  @extend %titleText;
+  @extend %layer1;
+  background-color: $accentColor1;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 16px;
+  width: 100vw;
+  height: $appBarHeight;
   .Logo img,
   .Logo .Silhouette {
-    max-height:                   $iconButtonVisibleSize;
-    max-width:                    calc(100vw - #{2 * ($iconButtonTotalSize + $iconButtonPadding)});
+    max-height: $iconButtonVisibleSize;
+    max-width: calc(100vw - #{2 * ($iconButtonTotalSize + $iconButtonPadding)});
   }
-
   .IconButton {
-    position:                     relative;
-    left:                         -$iconButtonPadding;
-    top:                          -$iconButtonPadding;
+    position: relative;
+    left: -$iconButtonPadding;
+    top: -$iconButtonPadding;
   }
-
   .ActionButtons {
-    height:                       100%;
-
+    height: 100%;
     & > *:not(.IconButton) {
-      display:                      flex;
+      display: flex;
     }
-
     .IconButton {
-      left:                         $iconButtonPadding;
+      left: $iconButtonPadding;
     }
   }
 }
