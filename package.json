@@ -1,7 +1,7 @@
 {
-  "name": "ambidex-example--bike-index",
+  "name": "ambidex-example",
   "version": "0.0.0",
-  "description": "An Ambidex demonstration that displays the Bike Index",
+  "description": "An Ambidex example",
   "main": "init.js",
   "dependencies": {
     "ambidex": "0.1.3",
@@ -22,9 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:appsforartists/ambidex-example--bike-index.git"
+    "url": "git@github.com:captainill/ambidex-bike-example.git"
   },
   "contributors": [
-    "Brenton Simpson <bresimpson@ebay.com> (http://appsforartists.com)"
   ]
 }
