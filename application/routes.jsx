@@ -10,5 +10,5 @@ module.exports =  (
     <Route path="/" name="home" handler={ require('./bike-index/components/Home.jsx') }/>
     <Route path="/bikes/:bikeID/" name="viewBike" handler={ require('./bike-index/components/BikeDetails.jsx') }/>
     <Route path="/bikes/:bikeID/edit/" name="editBike" handler={ require('./bike-index/components/BikeDetails.jsx') }/>
-  </Route>;
+  </Route>
 )
